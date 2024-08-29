@@ -278,4 +278,5 @@ Na co zwróci uwagę mentor podczas sprawdzania:
 * Pierwszy kwadrat w `div#boxes` ma wymiary 30px na 30px, a każdy kolejny jest o 10px wyższy i szerszy od poprzedniego.
 * Po naciśnięciu przycisku `Destroy` wszystkie kwadraty z `div#boxes` powinny być usuwane.
 
+https://github.com/lukasz-sklad/goit-js-hw-07
 https://lukasz-sklad.github.io/goit-js-hw-07/

@@ -13,7 +13,7 @@ function createBoxes(amount) {
   }
 
   // Usuń wszystkie istniejące elementy
-    // document.getElementById('boxes').innerHTML = '';
+    document.getElementById('boxes').innerHTML = '';
 
   // Twórz nowe elementy
   for (let i = 0; i < amount; i++) {
@@ -21,8 +21,7 @@ function createBoxes(amount) {
 		box.style.width = `${30 + i * 10}px`
 		box.style.height = `${30 + i * 10}px`
 		box.style.backgroundColor = getRandomHexColor()
-		// document.getElementById('boxes').appendChild(box);
-    document.getElementById('boxes').insertBefore(box, document.getElementById('boxes').firstChild);
+		document.getElementById('boxes').appendChild(box);
 	}
 
   // Czyść wartość w input
